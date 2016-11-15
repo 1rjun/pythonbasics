@@ -1,0 +1,8 @@
+writefile=open('hello_world.txt','w')
+writefile.write('hello arjun to the world of python :)')
+writefile.write('\nIts really fun to code in python')
+writefile.close()
+readfile=open('hello_world.txt','r')
+text=readfile.read()
+print(text)
+readfile.close()
